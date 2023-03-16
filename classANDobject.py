@@ -19,3 +19,4 @@ class Fruits:
 p1 = Fruits("Apple", "brown")
 print(p1.fruit_name)
 print(p1.fruit_color)
+
