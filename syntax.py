@@ -1,2 +1,2 @@
 #syntax of python
-print("Hello! Megha is there")
+print("Hello! Megha is here")
