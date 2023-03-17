@@ -1,10 +1,11 @@
-#Data abstraction is used for storing and hinding the unneccessary data from the user and shows whatever required.
+#encapsulation is used for bundling the data member and methods.
+#class is an example of encapsulation
 
 class person:
     def __init__(self):
-        self.name = "Megha Ahirwar"
+        self.name = "Megha Ahirwar"   #data member
         
-    def bio(self):
+    def bio(self):                    #methods or function
         self.address = "Pipariya, Hoshangabad"
         self.taxinfo = "qwrt12356"
         self.contact = 1234567890
