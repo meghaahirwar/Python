@@ -28,6 +28,14 @@ _a = 10 # only under_score can use in variable
 #variable can't start with number like example
 #1a = 10 #this is wrong
 
+#camal case variable
+myVariableName = "Megha"
+
+#pascal case
+MyVariableName = "Priya"
+
+#snake case
+my_variable_name = "Lavanya"
 
 
 
