@@ -22,7 +22,8 @@
 #integer
 #float
 #complex
-print("Integer OUTPUT: ")
+print("INTEGER Output: \n")
+
 a = 5
 print(a, type(a))
 
@@ -37,7 +38,7 @@ print(c, type(c))
 #string data type
 #Definition: string is a sequence of characters, special characters and numbers.
 
-print("String OUTPUT: ")
+print("STRING Output: ")
 str = "This is a string"
 print(str, type(str))
 
@@ -59,6 +60,7 @@ print(str1)
 #Definition: List is a ordered sequens of an elements, it is an mutable data type in the python and also most used in python.
 # we can perform update , delete operations in the list.  it can store any type of value and it is defined within square[] bracket 
 
+print("LIST Output: ")
 list1 = [1, "Megha", 42.3]
 print(list1, type(list1))
 
@@ -93,7 +95,7 @@ print(list1)
 #Definition: tuple is a ordered sequence of an items same as a list, this is immutable data type in python
 # we cannot perform update , delete operations in the tuple.  it can store any type of value
 #differnce between list and tuple: this is fast as compared to list, we can access tuple quickly and it is defined within paranthesis()
-
+print("TUPLE Output: ")
 tuple1 = (1, 2, "Megha", 42.3)
 print(tuple1, type(tuple1))
 
@@ -109,7 +111,7 @@ print(tuple1, type(tuple1))
 #Dictionary data type
 #Definition: Dictionary data type is an unordered collection of Key-value pairs, dictionary defined within curly-braces{}.
 #this is mutable data type.
-
+print("DICTIONARY Output: ")
 dictionary = {"Key": "value",
               "Name": "MEgha",
               "age": 23,
@@ -123,7 +125,7 @@ print(dictionary["Name"])
 #Set data type
 #Definition: A set is an unordered collection of an items and work on unique values, it only takes unique values and can remove duplicate values.
 #this is a immutable data type
-
+print("SET Output: ")
 Set = {10, 20, 10, "MEgha"}
 print(Set, type(Set))   #print only {10, 20, "MEgha"}
 
