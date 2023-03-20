@@ -2,7 +2,7 @@
 #Definition: A set is an unordered collection of an items and work on unique values, it only takes unique values and can remove duplicate values.
 #this is a immutable data type
 
-print("************* LIST Output: ***************") 
+print("************* SET Output: ***************") 
 print("create a SET in python: ")
 #create a set of an integer type
 student_id = {101, 102, 103, 104, 105}

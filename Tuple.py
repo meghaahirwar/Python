@@ -3,7 +3,7 @@
 # we cannot perform update , delete operations in the tuple.  it can store any type of value
 #differnce between list and tuple: this is fast as compared to list, we can access tuple quickly and it is defined within paranthesis()
 
-print("************* LIST Output: ***************") 
+print("************* TUPLE Output: ***************") 
 # Different types of tuples
 print("Different types of tuples: ")
 # Empty tuple
