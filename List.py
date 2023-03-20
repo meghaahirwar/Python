@@ -17,7 +17,9 @@ print("List with mixed data type: ")
 # list with mixed data types
 my_list = [1, "Hello", 3.4]
 print(my_list)
+
 print("-------------------------------------------------")
+
 print("Accessing List items using index: ")
 languages = ["Python", "Swift", "C++"]
 
@@ -26,7 +28,9 @@ print(languages[0])   # Python
 
 # access item at index 2
 print(languages[2])   # C++
+
 print("-------------------------------------------------")
+
 print("Accessing List items using negetive index: ")
 languages = ["Python", "Swift", "C++"]
 
@@ -35,7 +39,9 @@ print(languages[-1])   # C++
 
 # access item at index 2
 print(languages[-3])   # Python
+
 print("-------------------------------------------------")
+
 # List slicing in Python
 print("Slicing list items: ")
 my_list = ['p','r','o','g','r','a','m','i','z']
@@ -51,7 +57,9 @@ print(my_list[5:])
 # items beginning to end
 print("items beginning to end: ")
 print(my_list[:])
+
 print("-------------------------------------------------")
+
 print("Adding an element to a list using append() method: ")
 numbers = [21, 34, 54, 12]
 print("Before Append:", numbers)
@@ -179,7 +187,7 @@ languages = ['Python', 'Swift', 'C++']
 for language in languages:
     print(language)
     
-print("-------------------------------------------------")
+print("--------------------------------------------------")
 
 print("Check if an Item Exists in the Python List: ")   
 languages = ['Python', 'Swift', 'C++']
@@ -189,9 +197,12 @@ print('Python' in languages)    # True
 
 print("-------------------------------------------------")
 
-print("Python List Length: ") 
+print("Python List Length: ") #len() is used to find length of the list
 languages = ['Python', 'Swift', 'C++']
 
 print("List: ", languages)
 
 print("Total Elements: ", len(languages))    # 3
+
+print("-------------------------------------------------")
+
