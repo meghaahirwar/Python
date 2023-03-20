@@ -1,3 +1,5 @@
+#casting is used to convert datatype
+
 #Integers:
 
 x = int(1)   # x will be 1
