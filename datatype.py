@@ -22,7 +22,7 @@
 #integer
 #float
 #complex
-
+print("Integer OUTPUT: ")
 a = 5
 print(a, type(a))
 
@@ -37,6 +37,7 @@ print(c, type(c))
 #string data type
 #Definition: string is a sequence of characters, special characters and numbers.
 
+print("String OUTPUT: ")
 str = "This is a string"
 print(str, type(str))
 
